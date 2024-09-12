@@ -1,0 +1,25 @@
+div {
+  background: linear-gradient(210deg, #1417c0, #52c819);
+  background-size: 120% 120%;
+  background-clip: text;
+  width: 100%;
+  text-align: center;
+  font-size: 100px;
+  font-family: sans-serif;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient-animation 2s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
